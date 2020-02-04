@@ -1,0 +1,16 @@
+.cities-list-item {
+    display: flex;
+    align-items: center;
+}
+
+.cities-list-item .card-title {
+    word-break: break-all;
+}
+
+.cities-list-item__text-wrapper {
+    flex: 1;
+}
+
+.cities-list-item button + button {
+    margin-left: 5px;
+}

@@ -1,0 +1,12 @@
+.add-form textarea {
+    margin: 15px 0;
+}
+
+.add-form__submit-button {
+    margin-right: 20px;
+}
+
+.add-form__submit-button,
+.add-form__cancel-button {
+    padding: .5rem 25px;
+}

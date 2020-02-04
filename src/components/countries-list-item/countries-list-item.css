@@ -1,0 +1,21 @@
+.custom-card {
+    border-radius: 0;
+    background-color: #f0f0f0;
+    cursor: pointer;
+}
+
+.custom-card + .custom-card {
+    margin-top: 5px;
+}
+
+.active-card {
+    background-color: #007bff;
+    color: #ffffff;
+}
+
+.line-clamp {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
