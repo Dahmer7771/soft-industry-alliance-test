@@ -64,10 +64,10 @@ const ModalWindow = ({
                         onCityUpdate();
                     }}
                 >
-                    Do Something
+                    Изменить
                 </Button>
                 {" "}
-                <Button color="secondary" onClick={toggle}>Cancel</Button>
+                <Button color="secondary" onClick={toggle}>Отмена</Button>
             </ModalFooter>
         </Modal>
     );
